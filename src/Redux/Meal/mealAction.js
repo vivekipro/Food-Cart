@@ -1,4 +1,4 @@
-import { ITEM_QUENTITY, MEAL_ITEM , ADD_ITEM, INC_QTY, DEC_QTY} from "./mealType";
+import { ITEM_QUENTITY, MEAL_ITEM , ADD_ITEM, INC_QTY, DEC_QTY, EMPTY_QTY} from "./mealType";
 
 
 export const  giveAction = (payloadData) => {
@@ -38,6 +38,12 @@ export const  giveAction = (payloadData) => {
       type : DEC_QTY,
       payload : index,
       newindex : cartIndex
+    }
+  }
+
+  export const emptyQty = () =>{
+    return{
+      type: EMPTY_QTY
     }
   }
   

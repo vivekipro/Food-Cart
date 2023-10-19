@@ -26,7 +26,10 @@ function App() {
   }
 
   const handleGotoHome = () => {
-    setIsMyOrder(false);
+    setTimeout(() => {
+      setIsMyOrder(false);
+    }, 1500);
+    
   }
 
   setTimeout(() => {

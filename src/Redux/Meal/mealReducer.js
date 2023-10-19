@@ -1,5 +1,5 @@
 import { toast } from "react-toastify";
-import { MEAL_ITEM, ITEM_QUENTITY, ADD_ITEM, DEC_QTY, INC_QTY } from "./mealType";
+import { MEAL_ITEM, ITEM_QUENTITY, ADD_ITEM, DEC_QTY, INC_QTY, EMPTY_QTY } from "./mealType";
 
 
 const initialState = {
@@ -207,7 +207,24 @@ const mealReducer = (state = initialState, action) => {
         cartItems: decCartArray,
       };
 
-
+      case EMPTY_QTY:
+      
+      const updatedMealItemsNew = state.mealItems.map((item) => ({
+        ...item,
+        quantity: 1,
+      }));
+  
+          const updatedCartItems = []
+  
+          return {
+            ...state,
+            mealItems: updatedMealItemsNew,
+            cartItems: updatedCartItems,
+          };
+        
+  
+        return state; 
+  
 
 
     default:
