@@ -20,7 +20,7 @@ Before running this application, ensure you have Node.js and npm (Node Package M
 1. Clone this repository to your local machine.
 
    ```shell
-   git clone https://github.com/your-repo-link.git
+   https://github.com/vivekipro/Food-Cart.git
    ```
 
 2. Navigate to the project directory.
