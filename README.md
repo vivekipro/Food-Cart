@@ -69,6 +69,17 @@ The rendering of components is conditionally controlled based on the values of `
 
 ## Screenshoot 
 
+![Screenshot from 2023-10-19 11-26-16](https://github.com/vivekipro/Food-Cart/assets/143787878/5d29bdd0-3fdd-4c94-8863-facd9d57c5b2)
+
+![Screenshot from 2023-10-19 11-26-41](https://github.com/vivekipro/Food-Cart/assets/143787878/f9434f3e-5501-4256-abc5-c8492ff39011)
+
+![Screenshot from 2023-10-19 11-26-51](https://github.com/vivekipro/Food-Cart/assets/143787878/a937b947-ee47-4619-8896-632cc995ff2e)
+
+![Screenshot from 2023-10-19 11-27-11](https://github.com/vivekipro/Food-Cart/assets/143787878/a16c85b8-b7e2-4245-8d94-6115a7423f83)
+
+![Screenshot from 2023-10-19 11-27-15](https://github.com/vivekipro/Food-Cart/assets/143787878/9b28ba80-4ed3-4c49-bded-08a0afaa8d86)
+
+
 ## Using the Application
 
 - The user can interact with the shopping cart by clicking on the cart icon in the Navbar.
