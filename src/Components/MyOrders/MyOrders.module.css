@@ -1,0 +1,74 @@
+
+.container {
+    background-color: rgb(59, 52, 52) !important;
+    background: transparent;
+    padding: 20px;
+    color: white;
+    height: 100vh;
+  }
+  
+  .centered {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 80px;
+  }
+  
+  table thead {
+    color: white;
+    font-size: 1.4rem;
+    border-bottom: 1px solid white;
+    
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+  }
+  table tbody{
+    border-bottom: 1px solid white;
+  }
+
+  .newpara{
+    margin-top: 40px;
+    font-size: 2rem;
+    color: #ebe7e5;
+    font-weight: 800;
+  }
+  
+  .bold {
+   
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  
+
+  
+  .btnhome {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .btnhome:hover {
+    background-color: #0056b3; 
+  }
+
+  
+  
+  
+  
